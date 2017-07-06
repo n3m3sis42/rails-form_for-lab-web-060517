@@ -1,0 +1,11 @@
+
+<%= form_for @school_class do |f| %>
+  <p>
+    <%= f.label :title %>:<br />
+    <%= @school_class.title %>
+  </p>
+  <p>
+    <%= f.label :room_number %>:<br />
+    <%= @school_class.room_number %>
+  </p>
+<% end %>
